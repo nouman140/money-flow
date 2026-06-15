@@ -1,16 +1,65 @@
-# React + Vite
+# 💰 MoneyFlowCheck
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Personal Finance Dashboard**
 
-Currently, two official plugins are available:
+[![Netlify Status](https://img.shields.io/badge/netlify-deployed-brightgreen)](https://moneyflowcheck.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+MoneyFlowCheck is a clean, intuitive personal finance dashboard that helps you track your total balance, income, and expenses at a glance. Take control of your financial life with simple, real-time tracking.
 
-## React Compiler
+🌐 **Live Demo:** [https://moneyflowcheck.netlify.app/](https://moneyflowcheck.netlify.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📋 Table of Contents
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [About](#about)
+- [Features](#features)
+- [Current Snapshot](#current-snapshot)
+- [Tech Stack](#tech-stack)
+- [Setup & Installation](#setup--installation)
+- [Project Structure](#project-structure)
+- [Future Enhancements](#future-enhancements)
+- [License](#license)
+- [Contact](#contact)
+
+---
+
+## 📊 About
+
+MoneyFlowCheck provides a simple, visual overview of your financial health. Track your total balance, monitor income, and control expenses—all from one clean dashboard.
+
+**Goal:** Make personal finance tracking effortless and actionable.
+
+---
+
+## ✨ Features
+
+- 💵 **Total Balance** – See your net worth at a glance
+- 📈 **Income Tracking** – Monitor all incoming funds
+- 📉 **Expense Monitoring** – Keep spending in check
+- 🎯 **Real-time updates** – Add transactions and see balances update instantly
+- 📱 **Responsive design** – Works on desktop, tablet, and mobile
+
+---
+
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| **Frontend** | HTML5, CSS3, JavaScript,ReactJs |
+| **State Management** | Firbase |
+| **Charts/Visuals** | Chart.js  |
+| **Hosting** | Netlify |
+| **Version Control** | Git & GitHub |
+
+---
+
+## 🚀 Setup & Installation
+
+To run MoneyFlowCheck locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/nouman140/money-flow.git
+   cd money-flow
